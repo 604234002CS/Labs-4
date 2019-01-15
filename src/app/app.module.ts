@@ -1,3 +1,4 @@
+import { BookdetailPage } from './../pages/bookdetail/bookdetail';
 import { BookListtPage } from './../pages/book-listt/book-listt';
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
@@ -14,7 +15,8 @@ import { HttpClientModule } from '@angular/common/http';
   declarations: [
     MyApp,
     HomePage,
-    BookListtPage
+    BookListtPage,
+    BookdetailPage
   ],
   imports: [
     HttpClientModule,
@@ -25,7 +27,8 @@ import { HttpClientModule } from '@angular/common/http';
   entryComponents: [
     MyApp,
     HomePage,
-    BookListtPage
+    BookListtPage,
+    BookdetailPage
     
   ],
   providers: [
