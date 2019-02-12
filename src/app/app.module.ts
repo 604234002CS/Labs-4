@@ -1,3 +1,4 @@
+import { BookEditPage } from './../pages/book-edit/book-edit';
 import { BookdetailPage } from './../pages/bookdetail/bookdetail';
 import { BookListtPage } from './../pages/book-listt/book-listt';
 import { BrowserModule } from '@angular/platform-browser';
@@ -16,7 +17,8 @@ import { HttpClientModule } from '@angular/common/http';
     MyApp,
     HomePage,
     BookListtPage,
-    BookdetailPage
+    BookdetailPage,
+    BookEditPage
   ],
   imports: [
     HttpClientModule,
@@ -28,7 +30,8 @@ import { HttpClientModule } from '@angular/common/http';
     MyApp,
     HomePage,
     BookListtPage,
-    BookdetailPage
+    BookdetailPage,
+    BookEditPage
     
   ],
   providers: [
